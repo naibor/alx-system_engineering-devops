@@ -1,0 +1,2 @@
+Shell, basics.
+Bash projects 
