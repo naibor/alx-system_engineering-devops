@@ -9,3 +9,4 @@ A script that deletes file /tmp/my_first_directory/betty
 A script that deletes the directory /tmp/my_first_directory
 A script that changes the working directory to the previous one
 A script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+A script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
