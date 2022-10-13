@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# 8-for_ls: script that displays:
+# The content of the current directory
+# In a list format
+# Where only the part of the name after the first dash is displayed 
+
+content="$(ls)"
+for i in $content;
+do
+	echo "$i"
+done
