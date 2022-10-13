@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# 3-until_best_school: This script is displaying "Best School" 10 times
+
+count=0
+until [ $count -eq 10 ]
+do
+	echo "Best School"
+	((count++))
+done
