@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# K67-stop_me_if_you_can:kills the process of 7-highlander.
+
+pkill -f "./7-highlander"
+
