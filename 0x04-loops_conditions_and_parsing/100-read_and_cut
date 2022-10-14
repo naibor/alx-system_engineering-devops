@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# 100-read_and_cut: displays the content of the file /etc/passwd.
+
+directory="/etc/passwd"
+while  IFS= read -r line 
+do
+	echo "$line" | cut -f1,3,6 -d':'
+done < $directory
