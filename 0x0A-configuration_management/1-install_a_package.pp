@@ -1,7 +1,7 @@
 # Install a package
 
 package {'flask':
-ensure          => 'installed'
-install_options => ['pip3']
+ensure   => 'installed'
+provider => 'pip3'
 
 }
